@@ -8,13 +8,15 @@ disponível em qualquer um deles.
 
 ## Setup zero
 
-Antes de mais anda, vou precisar pelo menos do Git, e o resto está aqui no
-repositório. Então instale o git caso não o tenha, ou se o mesmo estiver em
-uma versão anterior a `v2.32.0`.
+Antes de mais nanda, vamos precisar pelo menos do [Git](https://git-scm.com),
+e o resto está aqui no repositório. Então instale o git caso não o tenha, ou se
+o mesmo estiver em uma versão anterior a `v2.32.0`.
 
-Veja as instruções em https://git-scm.com/download
+Veja as instruções em https://git-scm.com/download!
 
-Com o git já no sistema clone este repositório para sua pasta pessoal `~/.my-devenv`
+Com o git já no sistema, clone este repositório para sua pasta pessoal
+* `$HOME/.my-devenv` nos Unix's
+* `$env:UserProfile` no Windows
 
 Nos Unix's (macOS e Linux):
 ```sh
@@ -22,7 +24,7 @@ $ git clone https://github.com/erlimar/my-devenv.git ~/.my-devenv
 $ cd ~/.my-devenv
 ```
 
-No Windows:
+No Windows (com [Powershell](https://github.com/powershell/powershell):
 ```powershell
 # TODO ...
 ```
@@ -30,10 +32,10 @@ No Windows:
 ## Pré-requisitos
 
 Existem alguns programas que eu sempre vou precisar usar, então há um script
-em `scripts/${os}/install-requirements${ext}` de acordo com o sistema que faz
-isso pra mim. Basta executar:
+chamado `requirements` em um subdiretório correspondente a cada sistema que
+uso no diretório **`scripts/`**. Basta executá-lo para listar os pacotes
+que não estão instalados ainda ou use o argumento `--help` para saber mais:
 
 * **Pop! OS** - `pop-os/install-requirements.bash`
 
-Então você só precisa executar o script com o argumento "--help" para saber como
-usá-lo.
+Basta executá-lo para deixar seu (meu) ambiente pronto!
