@@ -36,6 +36,6 @@ chamado `requirements` em um subdiretório correspondente a cada sistema que
 uso no diretório **`scripts/`**. Basta executá-lo para listar os pacotes
 que não estão instalados ainda ou use o argumento `--help` para saber mais:
 
-* **Pop! OS** - `pop-os/install-requirements.bash`
+* **Pop! OS** - `pop-os/requirements.bash`
 
 Basta executá-lo para deixar seu (meu) ambiente pronto!
