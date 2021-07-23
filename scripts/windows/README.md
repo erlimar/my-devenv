@@ -25,3 +25,9 @@ wsl --set-default-version 2
 
 * Terminal do Windows
 > https://github.com/microsoft/terminal
+
+* Git `v2.32.0` ou superior
+> https://git-scm.com
+
+* Fonte [Cascadia Code](https://github.com/Microsoft/Cascadia-Code)
+> https://github.com/Microsoft/Cascadia-Code
