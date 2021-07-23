@@ -31,3 +31,6 @@ wsl --set-default-version 2
 
 * Fonte [Cascadia Code](https://github.com/Microsoft/Cascadia-Code)
 > https://github.com/Microsoft/Cascadia-Code
+
+* Ferramentas de build (nativo) para Visual Studio 2019
+> https://visualstudio.microsoft.com/pt-br/downloads/#build-tools-for-visual-studio-2019
