@@ -26,6 +26,9 @@ wsl --set-default-version 2
 * Terminal do Windows
 > https://github.com/microsoft/terminal
 
+* Chocolatey
+> https://chocolatey.org
+
 * Git `v2.32.0` ou superior
 > https://git-scm.com
 
@@ -34,3 +37,12 @@ wsl --set-default-version 2
 
 * Ferramentas de build (nativo) para Visual Studio 2019
 > https://visualstudio.microsoft.com/pt-br/downloads/#build-tools-for-visual-studio-2019
+
+* cURL
+> https://curl.haxx.se
+
+* Emacs
+> https://www.gnu.org/software/emacs
+
+* Neovim
+> https://neovim.io
